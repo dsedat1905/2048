@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 // a sound controller is needed
 [RequireComponent(typeof(AudioSource))]
 
@@ -28,7 +29,7 @@ public class Tile : MonoBehaviour {
 
 	void Update () {
 
-		textFab.GetComponent<GUIText>().transform.position = Camera.main.WorldToViewportPoint (transform.position);
+		textFab.GetComponent<Text>().transform.position = Camera.main.WorldToViewportPoint (transform.position);
 
 		if(transform.position != new Vector3(movePosition.x,movePosition.y,0f)) {
 			Manager.done = false;
@@ -66,9 +67,9 @@ public class Tile : MonoBehaviour {
 		tileValue = newValue;
 		// after combination we change tile's colour
 		GetComponent<SpriteRenderer>().color = Manager.tileColors [Mathf.RoundToInt(Mathf.Log (tileValue, 2) - 1)];
-		textFab.GetComponent<GUIText>().text = tileValue.ToString();
+		textFab.GetComponent<Text>().text = tileValue.ToString();
 		// colour value which is written on our cell
-		textFab.GetComponent<GUIText>().color = new Color (0.17f, 0.17f, 0.27f);
+		textFab.GetComponent<Text>().color = new Color (0.17f, 0.17f, 0.27f);
 	}
 
 	public bool Move (int x, int y) {

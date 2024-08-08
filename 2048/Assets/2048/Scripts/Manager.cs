@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class Manager : MonoBehaviour {
 	// colors of our cell
@@ -52,9 +53,9 @@ public class Manager : MonoBehaviour {
 		done = false;
 		// put and set score and best score lines position
 		scoreText.transform.position = Camera.main.WorldToViewportPoint (new Vector3 (0.2f, 8f, 0f));
-		scoreText.GetComponent<GUIText>().text = "Score : " + score;
+		scoreText.GetComponent<Text>().text = "Score : " + score;
 		highScoreText.transform.position = Camera.main.WorldToViewportPoint (new Vector3 (0.2f, 7.6f, 0f));
-		highScoreText.GetComponent<GUIText>().text = "Best score : " + highscore;
+		highScoreText.GetComponent<Text>().text = "Best score : " + highscore;
 
 		// a little tip to call the first and second cell when a new game starts
 		Spawn ();
@@ -97,7 +98,7 @@ public class Manager : MonoBehaviour {
         if(winner) {
 			// defines position of the line "you win"
 			youWonText.transform.position = Camera.main.WorldToViewportPoint (new Vector3 (4.8f, 7.6f, 0f));
-			youWonText.GetComponent<GUIText>().text = "Well done!"; // text
+			youWonText.GetComponent<Text>().text = "Well done!"; // text
 			// save the high score
 			if(score > highscore) {
 				highscore = score;
@@ -112,7 +113,7 @@ public class Manager : MonoBehaviour {
 		if(gameOver) {
 			// define position of the line "game over"
 			youLoseText.transform.position = Camera.main.WorldToViewportPoint (new Vector3 (4.8f, 7.6f, 0f));
-			youLoseText.GetComponent<GUIText>().text = "Game Over"; // text
+			youLoseText.GetComponent<Text>().text = "Game Over"; // text
 			// save the high score
 			if(score > highscore) {
 				highscore = score;
@@ -182,7 +183,7 @@ public class Manager : MonoBehaviour {
 					// if this cell isn't occuped yet - we move it
 					if(isInArea(next) && !grid[nx,ny].combined && grid[nx,ny].tileValue == grid[x,y].tileValue) {
 						score += grid[x,y].tileValue * 2; // we increase the value of the new cell
-						scoreText.GetComponent<GUIText>().text = "Score : " + score;
+						scoreText.GetComponent<Text>().text = "Score : " + score;
 						grid[x,y].Move(nx,ny); //combined
 						moved = true;
 						if((grid[nx,ny].tileValue * 2) == 2048) {

@@ -1,0 +1,425 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.40f1 (cbdda657d2f0) revision 13360550'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit CoreSingleLanguage' Language: 'tr' Physical Memory: 24337 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.40f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/demir/OneDrive/Belgeler/0GitHub/2048/2048
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+57070
+Successfully changed project path to: C:/Users/demir/OneDrive/Belgeler/0GitHub/2048/2048
+C:/Users/demir/OneDrive/Belgeler/0GitHub/2048/2048
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [39272]  Target information:
+
+Player connection [39272]  * "[IP] 192.168.1.114 [Port] 0 [Flags] 2 [Guid] 2294763044 [EditorId] 2294763044 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-G9U68IJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [39272] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [39272] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.40f1 (cbdda657d2f0)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.40f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/demir/OneDrive/Belgeler/0GitHub/2048/2048/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 Ti (ID=0x2191)
+    Vendor:   NVIDIA
+    VRAM:     5991 MB
+    Driver:   30.0.15.1272
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.40f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.40f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.40f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56680
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.40f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.40f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.40f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.044509 seconds.
+- Loaded All Assemblies, in  1.330 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 859 ms
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.852 seconds
+Domain Reload Profiling: 3178ms
+	BeginReloadAssembly (371ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (128ms)
+	RebuildNativeTypeToScriptingClass (40ms)
+	initialDomainReloadingComplete (209ms)
+	LoadAllAssembliesAndSetupDomain (578ms)
+		LoadAssemblies (365ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (571ms)
+			TypeCache.Refresh (567ms)
+				TypeCache.ScanAssembly (436ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (1853ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1677ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1183ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (5ms)
+			ProcessInitializeOnLoadAttributes (352ms)
+			ProcessInitializeOnLoadMethodAttributes (128ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  3.633 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.098 seconds
+Domain Reload Profiling: 4726ms
+	BeginReloadAssembly (489ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (17ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (57ms)
+	RebuildCommonClasses (215ms)
+	RebuildNativeTypeToScriptingClass (37ms)
+	initialDomainReloadingComplete (77ms)
+	LoadAllAssembliesAndSetupDomain (2808ms)
+		LoadAssemblies (3054ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (77ms)
+			TypeCache.Refresh (63ms)
+				TypeCache.ScanAssembly (41ms)
+			ScanForSourceGeneratedMonoScriptInfo (6ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1100ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (699ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (83ms)
+			SetLoadedEditorAssemblies (11ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (107ms)
+			ProcessInitializeOnLoadAttributes (418ms)
+			ProcessInitializeOnLoadMethodAttributes (59ms)
+			AfterProcessingInitializeOnLoad (21ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.18 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 338 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3 unused Assets / (48.8 KB). Loaded Objects now: 812.
+Memory consumption went from 60.9 MB to 60.8 MB.
+Total: 8.015800 ms (FindLiveObjects: 0.114100 ms CreateObjectMapping: 0.063200 ms MarkObjects: 7.438500 ms  DeleteObjects: 0.396800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/Button.cs:  -> 18874d3cd8f6e3668320e6beabdb6cbc
+  custom:scripting/monoscript/fileName/LayoutUtility.cs:  -> 5aad751cb79650d7f92ebd417a09943c
+  custom:scripting/monoscript/fileName/LayoutRebuilder.cs:  -> 361ab5c1dfc0dd155ae206d28605f701
+  custom:scripting/monoscript/fileName/Clipping.cs:  -> 5c87c7b6bd30043817e201557e09a654
+  custom:scripting/monoscript/fileName/BaseMeshEffect.cs:  -> d6e560340e123aa95f6f5a8a2fcdf11f
+  custom:scripting/monoscript/fileName/ColorBlockDrawer.cs:  -> 5ce7ef2ba701206222b82e777add9575
+  custom:scripting/monoscript/fileName/TMP_ShaderUtilities.cs:  -> 84a261643983e306d02445da38ed662f
+  custom:scripting/monoscript/fileName/TMP_SettingsEditor.cs:  -> 56bf06371df7e13c5b8cc88becb89a4d
+  custom:scripting/monoscript/fileName/MaterialReferenceManager.cs:  -> c970e86594a0f568cbda548f2d4462c1
+  custom:scripting/monoscript/fileName/DropdownOptionListDrawer.cs:  -> 4362475bc384312c771d88865ee2f40d
+  custom:scripting/monoscript/fileName/DefaultControls.cs:  -> 553a49af5274967d9937dc08d9e54483
+  custom:scripting/monoscript/fileName/TMP_UpdateRegistery.cs:  -> 1f23864d29c3a03d22aa9b00a337cf78
+  custom:scripting/monoscript/fileName/IndexedSet.cs:  -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/TMP_PackageUtilities.cs:  -> 89e6e95503dd36070edf73e7aaab4557
+  custom:scripting/monoscript/fileName/IMaskable.cs:  -> 7d1a33632a371b7839c89496b37570f7
+  custom:scripting/monoscript/fileName/SetPropertyUtility.cs:  -> f604b4b9e6b0979bdfc1e2b40426dd19
+  custom:scripting/monoscript/fileName/TMP_FontFeatureTable.cs:  -> cbd25d300d7ed4d969d60cb9f98f2826
+  custom:scripting/monoscript/fileName/TMP_Character.cs:  -> 015720458ea991fbf07357eae19532db
+  custom:scripting/monoscript/fileName/ScrollRect.cs:  -> ad946dcd0c52e084febb1a202c6365b7
+  custom:scripting/monoscript/fileName/TMP_FontAssetCommon.cs:  -> 2b5f11ccf8aacaf9b5ea6564bf2b0d57
+  custom:scripting/monoscript/fileName/TMP_SDFShaderGUI.cs:  -> 1460619486eb6e8da302e26af5538aaa
+  custom:scripting/monoscript/fileName/ImageEditor.cs:  -> 445a540a125ce6a604545e302da59d0d
+  custom:scripting/monoscript/fileName/RectangularVertexClipper.cs:  -> b6da5fc33d733831211174eb77db8240
+  custom:scripting/monoscript/fileName/IClipRegion.cs:  -> 7f6cd92e6d4df0295c24c7c4ddc064ba
+  custom:scripting/monoscript/fileName/EventSystem.cs:  -> 9893ce071eb20d5c73342946ea902daa
+  custom:scripting/monoscript/fileName/TMP_RichTextTagsCommon.cs:  -> 5462d55f8a9ad882f9a7f2d708a6978b
+  custom:scripting/monoscript/fileName/TMP_ResourcesManager.cs:  -> 64252a073d41e9c6f4e95b5f68ac966c
+  custom:scripting/monoscript/fileName/TMPro_ExtensionMethods.cs:  -> 479bffcc157b89693ffc4c2ef2374861
+  custom:scripting/monoscript/fileName/FastAction.cs:  -> dfbe75b66b645b53472915ad2590af11
+  custom:scripting/monoscript/fileName/AspectRatioFitterEditor.cs:  -> ca909eaa36fb5ef0289fe980de644381
+  custom:scripting/monoscript/fileName/ContentSizeFitter.cs:  -> e2715cebc3fc71ede47fde6d9e9995cc
+  custom:scripting/monoscript/fileName/ScrollRectEditor.cs:  -> 3c0730e578aa8d8fd5bfc2f3205e2ba0
+  custom:scripting/monoscript/fileName/TMPro_TextContainerEditor.cs:  -> b2fbc5db24221a870c4de162a712cbfe
+  custom:scripting/monoscript/fileName/TMPro_TexturePostProcessor.cs:  -> 0750ad2b775120fa59f760172dc340ad
+  custom:scripting/monoscript/fileName/HorizontalLayoutGroup.cs:  -> 8a5b3f08374a0e6bc0ae61c7820d3dc9
+  custom:scripting/monoscript/fileName/TMP_PostBuildProcessHandler.cs:  -> c69b388004562ecb0f789fc3759d9651
+  custom:scripting/monoscript/fileName/ToggleEditor.cs:  -> bd84b18f689a3b85ecdf512fffc714e6
+  custom:scripting/monoscript/fileName/ITextPreProcessor.cs:  -> a7aa94de5d5bfce2bdd74516315faaf2
+  custom:scripting/precompiled-assembly-types:Unity.TextMeshPro.Editor:  -> 46ffe279a7239cd1fb74eb9c5ab5b5d8
+  custom:scripting/monoscript/fileName/MaskableGraphic.cs:  -> aad20bbffec73c4b301a1ae8e335759b
+  custom:scripting/monoscript/fileName/Text.cs:  -> f3cd2527cc0cf233b21b58a0a7d6ebc9
+  custom:scripting/monoscript/fileName/TextEditor.cs:  -> 0795927915f8ee9dc27f674f60e96764
+  custom:scripting/monoscript/fileName/TMP_SubMesh.cs:  -> 9fd75270af40187985e5c14cc85ebe42
+  custom:scripting/monoscript/fileName/ClipperRegistry.cs:  -> 8e6c24182f27f55fb4de3b4cdfe95c6c
+  custom:scripting/monoscript/fileName/RectMask2D.cs:  -> 4d0473b9b97e6b8149c43fe7277f2c32
+  custom:scripting/monoscript/fileName/SpriteState.cs:  -> 57b3309510f8493daf4f3019efe64711
+  custom:scripting/monoscript/fileName/TMP_DropdownEditor.cs:  -> 2d907ee76ef876797c15186180266847
+  custom:scripting/monoscript/fileName/SpriteStateDrawer.cs:  -> 5df3134a6f23a9419d53d42b06555043
+  custom:scripting/monoscript/fileName/PrefabLayoutRebuilder.cs:  -> a5c4903b52cf08d0d76a12531586d566
+  custom:scripting/monoscript/fileName/TMP_GlyphPropertyDrawer.cs:  -> 56b500a16a5c8f635a7bfdd702279864
+  custom:scripting/monoscript/fileName/InputField.cs:  -> 50f5a4450f02a1646ac6ec7a42f31f75
+  custom:scripting/monoscript/fileName/IMeshModifier.cs:  -> d34ea46c6ec982082dceca7968209d0b
+  custom:scripting/monoscript/fileName/TMPro_EventManager.cs:  -> 4c7492301243f935f7a463360f91d217
+  custom:scripting/monoscript/fileName/Slider.cs:  -> fa9653030ac65718025b6955291e99ef
+  custom:scripting/monoscript/fileName/PointerEventData.cs:  -> 3c7a8b2c3ff2e04116c5ea92277d670a
+  custom:scripting/monoscript/fileName/TMP_SubMeshUI.cs:  -> 748262c65738bc5e1c553ae7a37a0c73
+  custom:scripting/monoscript/fileName/GlyphRectPropertyDrawer.cs:  -> bdec415148eac17379112822c8814df5
+  custom:scripting/monoscript/fileName/TMP_GlyphPairAdjustmentRecordPropertyDrawer.cs:  -> 1a07941369755af9e0a102a45e9058c5
+  custom:scripting/monoscript/fileName/Toggle.cs:  -> fc59b554e8aca13c5f78dc9bb5f2dcbb
+  custom:scripting/precompiled-assembly-types:UnityEditor.UI:  -> 6bae215471362000d6dbd3e0ee304a50
+  custom:scripting/monoscript/fileName/RaycastResult.cs:  -> 3da05e5f8945f9e35dd9f158a0fc91b7
+  custom:scripting/monoscript/fileName/ButtonEditor.cs:  -> 5ac506fb7c7a0164c335183377af7ab2
+  custom:scripting/monoscript/fileName/Physics2DRaycaster.cs:  -> 532e9bb49f140fabac2c7047d6401ab9
+  custom:scripting/precompiled-assembly-types:Unity.TextMeshPro:  -> 59230975e8163396a463bd906828ec67
+  custom:scripting/monoscript/fileName/Navigation.cs:  -> e35012b3e8f0b9a62e22595c530c4b09
+  custom:scripting/monoscript/fileName/StencilMaterial.cs:  -> c69bffbf7b7d04b1aed525ae7043b52a
+  custom:scripting/monoscript/fileName/TMP_FontFeaturesCommon.cs:  -> 7d1db71d73353e7dd97f094c509882fa
+  custom:scripting/monoscript/fileName/ToggleGroup.cs:  -> 861cd52fff6f1d7a73f5457b3b97dda8
+  custom:scripting/monoscript/fileName/Outline.cs:  -> abe7a3b85236fa2aa6a727443644081c
+  custom:scripting/monoscript/fileName/TMP_LineInfo.cs:  -> bb529d63c9723788bd7143f27cd69eaf
+  custom:scripting/monoscript/fileName/AxisEventData.cs:  -> bd68a02a31e92e066ceec31b011fbc57
+  custom:scripting/monoscript/fileName/RawImage.cs:  -> 9b1f9ced27d17db391e342a1964f4b65
+  custom:scripting/monoscript/fileName/TMPro_UGUI_Private.cs:  -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/TMP_PackageResourceImporter.cs:  -> 949b6e7fa2132b400d5c4aaf9c34421a
+  custom:scripting/monoscript/fileName/Physics2DRaycasterEditor.cs:  -> 9e7f63ac2881662ae3bbd50a4338aa2a
+  custom:scripting/monoscript/fileName/TMP_EditorCoroutine.cs:  -> 04cbf5ce6e541d98265aa7668ef82832
+  custom:scripting/precompiled-assembly-types:UnityEngine.UI:  -> f762135bac905e34e2b540c872c48817
+  custom:scripting/monoscript/fileName/Misc.cs:  -> 7ed2e50827551a4e78c69f183dffa2c9
+  custom:scripting/monoscript/fileName/TMP_SpriteGlyph.cs:  -> cb4cdca5a4c6415e4f27ee5280164c41
+  custom:scripting/monoscript/fileName/TMPro_EditorShaderUtilities.cs:  -> f4cbef9348a73d49f1efb8d10ff07bf0
+  custom:scripting/monoscript/fileName/HorizontalOrVerticalLayoutGroup.cs:  -> eac4934c775299d8b76ff59142d92fe4
+  custom:scripting/monoscript/fileName/CoroutineTween.cs:  -> 145a57fb4b19fcfb123b1dcc9c6ec846
+  custom:scripting/monoscript/fileName/Image.cs:  -> dab426e5f5622a0f37965b80d0c94886
+  custom:scripting/monoscript/fileName/TMP_UpdateManager.cs:  -> fa7e71df671c5b3088b39753e4bbc70d
+  custom:scripting/monoscript/fileName/TMP_CharacterPropertyDrawer.cs:  -> ddc6f8909fdac3de9238e9b86e411c3e
+  custom:scripting/monoscript/fileName/AspectRatioFitter.cs:  -> d0d41744e6957c53bac0c4dfa076cfbe
+  custom:scripting/monoscript/fileName/TMP_FontAssetEditor.cs:  -> e359b61135381f6b1d7b8c7e97a930f3
+  custom:scripting/monoscript/fileName/TMP_TextAlignmentDrawer.cs:  -> 011b7908ef5eb5e9dea532c77e85c538
+  custom:scripting/monoscript/fileName/TMP_EditorPanel.cs:  -> 0631f68be4ca0623bf3e313ec9becbc9
+  custom:scripting/monoscript/fileName/GraphicRebuildTracker.cs:  -> 8de94ef43240abdb34f228fee6977ffb
+  custom:scripting/monoscript/fileName/CanvasScalerEditor.cs:  -> 45d5b31aba10a8b7f96c6429c8d1cf15
+  custom:scripting/monoscript/fileName/TMP_EditorUtility.cs:  -> b242106620cbbc38f0411146a086b885
+  custom:scripting/monoscript/fileName/TMPro_CreateObjectMenu.cs:  -> ddee59388caa7a56693342f3a805d427
+  custom:scripting/monoscript/fileName/PhysicsRaycasterEditor.cs:  -> 110591b94d444b72f6a02c548bb7e869
+  custom:scripting/monoscript/fileName/TMP_FontAsset_CreationMenu.cs:  -> 1c5caeb31a0df734411a201aca87cb03
+  custom:scripting/monoscript/fileName/PanelRaycaster.cs:  -> 57c5b48d37b14bf434fbeb37894146ef
+  custom:scripting/monoscript/fileName/VertexHelper.cs:  -> d79122a4ca8eedf6798884cad51c94ef
+  custom:scripting/monoscript/fileName/TMPro_ContextMenus.cs:  -> 06b3d4b27f337b8d846ca7117f3251e1
+  custom:scripting/monoscript/fileName/Shadow.cs:  -> 7884315ffc3a3b9bc418d86e8992798d
+  custom:scripting/monoscript/fileName/TMP_SpriteGlyphPropertyDrawer.cs:  -> 1447c7afab82cf56bc359d5c7fba114e
+  custom:scripting/monoscript/fileName/TMP_CoroutineTween.cs:  -> 76849b8d6d4ce499ad8ffee762e4a4af
+  custom:scripting/monoscript/fileName/TMP_Style.cs:  -> ecc9948baa78373f3076151d1a0642d9
+  custom:scripting/monoscript/fileName/EventTriggerEditor.cs:  -> 6ea4cbbbbfa1cf486ec109d8109386ab
+  custom:scripting/monoscript/fileName/BaseInputModule.cs:  -> e5d51419cd83ddd14cfd2bfec49bced5
+  custom:scripting/monoscript/fileName/TouchInputModule.cs:  -> f649e6d16e6a2b3e3d9ef2fc7f32a42a
+  custom:scripting/monoscript/fileName/TMP_Asset.cs:  -> 7e95c8d89188057bea8fc9569c9aa309
+  custom:scripting/monoscript/fileName/TMP_ScrollbarEventHandler.cs:  -> c015e39b5a3f1a14518ce039f30e10af
+  custom:scripting/monoscript/fileName/MaskUtilities.cs:  -> 1ac31d7c3f0aeeb6154c06c4f379fbda
+  custom:scripting/monoscript/fileName/TMP_TextInfo.cs:  -> 9e4eb698c4c168829682cbe659418e8f
+  custom:scripting/monoscript/fileName/TMPro_MeshUtilities.cs:  -> 2237d160e4d9e81a7d899dc235029cb3
+  custom:scripting/monoscript/fileName/GlyphMetricsPropertyDrawer.cs:  -> 438b07e6eae795dab04c32f51ac4e752
+  custom:scripting/monoscript/fileName/BaseEventData.cs:  -> fe1c8385b48c0521893f28f747b6fc69
+  custom:scripting/monoscript/fileName/ColorBlock.cs:  -> 425ee059ac60082d71e36b92bc05c817
+  custom:scripting/monoscript/fileName/TMP_SpriteAssetMenu.cs:  -> 05ea7b84320d1b77a6d1ae49c41ee9cc
+  custom:scripting/monoscript/fileName/TMP_TextUtilities.cs:  -> aab2855e68416a0a1f2f8904059662aa
+  custom:scripting/monoscript/fileName/TMP_TextElement_Legacy.cs:  -> 6e11e173cb695b15e8cce3cd1e1cb2a7
+  custom:scripting/monoscript/fileName/TMP_StyleSheetEditor.cs:  -> 38b210a450ac855df2d81ab0242c2feb
+  custom:scripting/monoscript/fileName/TMP_Compatibility.cs:  -> 3ef1f12d3c823dd740c7c596ab076c61
+  custom:scripting/monoscript/fileName/NavigationDrawer.cs:  -> d6f1c1b7e626587e232b7c29fd8317ca
+  custom:scripting/monoscript/fileName/SpriteDrawUtility.cs:  -> 63a19974af19378fa2ed74e2b9646e43
+  custom:scripting/monoscript/fileName/TMP_ObjectPool.cs:  -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/RaycasterManager.cs:  -> 734ccc1eb36467642b0349d544b4126e
+  custom:scripting/monoscript/fileName/TextContainer.cs:  -> 245c032a15fbc12850861c707e37b027
+  custom:scripting/monoscript/fileName/PhysicsRaycaster.cs:  -> 55704cfd308f55e8f2100e1978b8c859
+  custom:scripting/monoscript/fileName/TMP_EditorPanelUI.cs:  -> 0c3fb43855adf1da22258c211d01a47d
+  custom:scripting/monoscript/fileName/TMP_SpriteAnimator.cs:  -> bf3a797c3a059d3698e93e0031d7f11c
+  custom:scripting/monoscript/fileName/GraphicRegistry.cs:  -> 98589adfc9bed38aa1284f52d0906cff
+  custom:scripting/monoscript/fileName/AnimationTriggers.cs:  -> 71e2bc068282cb51ef0c9c07f7c83c0e
+  custom:scripting/monoscript/fileName/ContentSizeFitterEditor.cs:  -> d3472f0757f80a46d91353f6d23b99b9
+  custom:scripting/monoscript/fileName/TMP_Dropdown.cs:  -> ecea2f8babcb40d207d2e73158251f60
+  custom:scripting/monoscript/fileName/TMP_BaseShaderGUI.cs:  -> 25118693f24c47c8a4b530b8bff26574
+  custom:scripting/monoscript/fileName/RawImageEditor.cs:  -> a27f397991c9e00c409e9e5f249ac4cf
+  custom:scripting/monoscript/fileName/IMaterialModifier.cs:  -> 22379bdba952e76eedc3495376a7f365
+  custom:scripting/monoscript/fileName/SliderEditor.cs:  -> 311387dff33e7f968557acb6719ff318
+  custom:scripting/monoscript/fileName/TMP_FontAssetUtilities.cs:  -> 5b7a9bc9c5c56e3cb5ccc808a2bdd9e4
+  custom:scripting/monoscript/fileName/SelectableEditor.cs:  -> 1481d527b8e3461180bdeab828e61e72
+  custom:scripting/monoscript/fileName/StandaloneInputModule.cs:  -> bdd0257dc8587dc277481ed15f006d00
+  custom:scripting/monoscript/fileName/UIBehaviour.cs:  -> 93a5dfaee450605a3ebf5df8a3c39094
+  custom:scripting/monoscript/fileName/TMP_FontAsset.cs:  -> 6c1db4680a96f294cf0af87a0b8099aa
+  custom:scripting/monoscript/fileName/TMP_ColorGradient.cs:  -> 8d91c7c4749088eca69648d37a965bf8
+  custom:scripting/monoscript/fileName/ExecuteEvents.cs:  -> 09bdf6afd188bdc384f065aac6293d3f
+  custom:scripting/monoscript/fileName/BaseInput.cs:  -> 2124093b3f8a7fbb31af4584d7906f17
+  custom:scripting/monoscript/fileName/InterceptedEventsPreview.cs:  -> 94e846ba0cdb752454d2d472cfe36d16
+  custom:scripting/monoscript/fileName/MenuOptions.cs:  -> d79d6d6d5841de7e6374a43e8dcef5a4
+  custom:scripting/monoscript/fileName/TMP_CharacterInfo.cs:  -> c840ce0b0aa6c1faafb27b3b884b2328
+  custom:scripting/monoscript/fileName/PositionAsUV1.cs:  -> 2e4459b437a4807ec15690930098829a
+  custom:scripting/monoscript/fileName/Dropdown.cs:  -> e2499375dbab18b142e2db07a091d792
+  custom:scripting/monoscript/fileName/TMP_ColorGradientEditor.cs:  -> ed654c9d45026a5f71e6e9535130c15f
+  custom:scripting/monoscript/fileName/TMP_PreBuildProcessor.cs:  -> 790c12dcd4980aa978fd28fb6f89fb37
+  custom:scripting/monoscript/fileName/TMP_EditorResourceManager.cs:  -> f56b80268a934198a76acc6f4cef503c
+  custom:scripting/monoscript/fileName/TMPro_FontAssetCreatorWindow.cs:  -> 0d0900483ed9b57d4ccc2ff58d1220b3
+  custom:scripting/monoscript/fileName/SelfControllerEditor.cs:  -> 7085c77278668b218f5204af2c8ef3a1
+  custom:scripting/monoscript/fileName/TMP_SubMeshUI_Editor.cs:  -> 119a633ce37cc27ac209988b5de61d96
+  custom:scripting/monoscript/fileName/PointerInputModule.cs:  -> c4d4fe7ccbecd5087b916bc87196dbe9
+  custom:scripting/monoscript/fileName/Graphic.cs:  -> a06ccab3be7023340f550cfeaabbe07e
+  custom:scripting/monoscript/fileName/Mask.cs:  -> 30def7c5b8ef23ce62910d8eb0c002c6
+  custom:scripting/monoscript/fileName/DropdownEditor.cs:  -> 7835943c2b1e7ab14674862cb91ce165
+  custom:scripting/monoscript/fileName/HorizontalOrVerticalLayoutGroupEditor.cs:  -> b818b9a01e994214d99cc7440db09dec
+  custom:scripting/monoscript/fileName/MultipleDisplayUtilities.cs:  -> 4c3c70e26636165f46aedff2bed06aa3
+  custom:scripting/monoscript/fileName/LayoutElementEditor.cs:  -> 7b7a8175ebabe6f0476df392a9d779f5
+  custom:scripting/monoscript/fileName/TMP_SpriteAssetImporter.cs:  -> 675c97d72afe988872a20f51812f7cdf
+  custom:scripting/monoscript/fileName/GraphicEditor.cs:  -> 0dc931f0f060b1c1aa4b9934f3c02068
+  custom:scripting/monoscript/fileName/LayoutPropertiesPreview.cs:  -> 464f6e736bc56387abed9e1345b58e03
+  custom:scripting/monoscript/fileName/TextMeshPro.cs:  -> 0cfab9de2f927cf0a5e3dc6276498acd
+  custom:scripting/monoscript/fileName/CanvasScaler.cs:  -> 2ea1923de8f9e015366994adf4a911f8
+  custom:scripting/monoscript/fileName/TMP_TextProcessingStack.cs:  -> 6146dd1b7f9b90aa342ef9794e387c23
+  custom:scripting/monoscript/fileName/TMP_Settings.cs:  -> 68d1204aae2aa6d0a54c151b7af443e7
+  custom:scripting/monoscript/fileName/InputFieldEditor.cs:  -> ae985d67ad35a24d695667fcf35d81ef
+  custom:scripting/monoscript/fileName/TMP_SubMesh_Editor.cs:  -> b381eb4c2ad4ef265088242d67c5b140
+  custom:scripting/monoscript/fileName/TMP_SerializedPropertyHolder.cs:  -> 99e5dbc1fa1abe750acc8166e4243be8
+  custom:scripting/monoscript/fileName/IGraphicEnabledDisabled.cs:  -> 543e967edd29d3f90a7fada795a69d63
+  custom:scripting/monoscript/fileName/IMask.cs:  -> 4835b27d1d14549285b4f8c83612ebc7
+  custom:scripting/monoscript/fileName/FontDataDrawer.cs:  -> f7cbe293c2e3dff2ee39aff7bd4163b1
+  custom:scripting/monoscript/fileName/Selectable.cs:  -> 355ffa2236bbfbbd4ecc059e599154f4
+  custom:scripting/monoscript/fileName/TMPro_SortingLayerHelper.cs:  -> 8b86ad735987eff6a1277352e9e8d9b6
+  custom:scripting/monoscript/fileName/FontData.cs:  -> 2624b2b5223fc7daa60b578156662561
+  custom:scripting/monoscript/fileName/VerticalLayoutGroup.cs:  -> d5cf2f2f23f5247db7d886894bac9b3f
+  custom:scripting/monoscript/fileName/TMP_BaseEditorPanel.cs:  -> f4b9967705e7bb57152fef4117417ba7
+  custom:scripting/monoscript/fileName/TMP_TextElement.cs:  -> 5dfb95666bd41ecc32948097824aba23
+  custom:scripting/monoscript/fileName/TMP_Text.cs:  -> 5cba61e283281e8dbf7dadaabcd638dc
+  custom:scripting/monoscript/fileName/TMP_InputFieldEditor.cs:  -> a6f05406e9cdb59679382b884c14216a
+  custom:scripting/monoscript/fileName/TMP_InputValidator.cs:  -> 5e0d679d98dae60baa87977011e0ed51
+  custom:scripting/monoscript/fileName/RectMask2DEditor.cs:  -> f121c7dbc11fd506db77fcd126dfa3fc
+  custom:scripting/monoscript/fileName/MaskEditor.cs:  -> 3bd6622b0f25c580774e523433166ef0
+  custom:scripting/monoscript/fileName/PanelEventHandler.cs:  -> ba6769d051300e140797e22cf69b8ced
+  custom:scripting/monoscript/fileName/GridLayoutGroupEditor.cs:  -> e48ddca2b2d4210562ae141b312d8312
+  custom:scripting/monoscript/fileName/TMP_SpriteAssetEditor.cs:  -> 8a42af05e85c0eed4128787976375b45
+  custom:scripting/monoscript/fileName/TMP_Sprite.cs:  -> 0ee3c386846aa132dd254421fac18cd1
+  custom:scripting/monoscript/fileName/TMP_ListPool.cs:  -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/BaseRaycaster.cs:  -> e37362e329c8091c64b863e33af2335e
+  custom:scripting/monoscript/fileName/TMP_SpriteCharacterPropertyDrawer.cs:  -> 14565b4e4f9266584dc3194fd967d252
+  custom:scripting/monoscript/fileName/ILayoutElement.cs:  -> a5941e42345b87779111dd71a1bb5868
+  custom:scripting/monoscript/fileName/TMP_InputField.cs:  -> f7712ab842984f124274656d749eca3d
+  custom:scripting/monoscript/fileName/TMP_DefaultControls.cs:  -> 2673e29173eb9307fa53ee17c15332ed
+  custom:scripting/monoscript/fileName/TMP_StyleAssetMenu.cs:  -> 60e7743122a0686d1131101c521adac6
+  custom:scripting/monoscript/fileName/TMP_UIStyleManager.cs:  -> 66d96f3fa9ea14a5a6ed3f92d3bbe0f1
+  custom:scripting/monoscript/fileName/TMP_ResourcesLoader.cs:  -> 6f1f07799f3cfe795f955033c27f98ed
+  custom:scripting/monoscript/fileName/FontUpdateTracker.cs:  -> 0edf4184b1e65a637688bed2aad2858e
+  custom:scripting/monoscript/fileName/TMP_StyleSheet.cs:  -> de73099b6bd4b9281c92feedf1315618
+  custom:scripting/monoscript/fileName/TextMeshProUGUI.cs:  -> b783d06a82b0620f102e3253b4b9fc9b
+  custom:scripting/monoscript/fileName/TMPro_Private.cs:  -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/EventTrigger.cs:  -> 302ed930e5ba0917aa82911027f67670
+  custom:scripting/monoscript/fileName/TMP_MeshInfo.cs:  -> 89833651f7d905e51b340ec2afe531d1
+  custom:scripting/monoscript/fileName/TMP_SpriteAssetImportFormats.cs:  -> 920e3140228fbd530b0080254da22d88
+  custom:scripting/monoscript/fileName/EventInterfaces.cs:  -> 207de7b71ff167cef7ae4584652d1556
+  custom:scripting/monoscript/fileName/TMP_BitmapShaderGUI.cs:  -> 2ce3ac811452d1d6d82e565157cac3e2
+  custom:scripting/monoscript/fileName/ReflectionMethodsCache.cs:  -> c5cb035abcaae76940caca8d15cf29e4
+  custom:scripting/monoscript/fileName/TMP_MaterialManager.cs:  -> 441d72ec3c04a8da6a351f60fff95465
+  custom:scripting/monoscript/fileName/TMP_ColorGradientAssetMenu.cs:  -> 83563be632f8167fcdca7878d36901f9
+  custom:scripting/monoscript/fileName/TMP_SelectionCaret.cs:  -> d2a06fefe973175bffa10d62f788c481
+  custom:scripting/monoscript/fileName/TMP_SpriteCharacter.cs:  -> 81dc73ff0878d6528202f8be44877b26
+  custom:scripting/monoscript/fileName/ScrollbarEditor.cs:  -> b44327427537937c6a57f8543906e016
+  custom:scripting/monoscript/fileName/TMP_SpriteAsset.cs:  -> 8d06882cb45c7664f8d7c3079ee8757f
+  custom:scripting/monoscript/fileName/GridLayoutGroup.cs:  -> 43759e18a5ea1dda932d71b40c61dda6
+  custom:scripting/monoscript/fileName/GraphicRaycaster.cs:  -> 0fc8c9d6ff17669221a0b586bde06477
+  custom:scripting/monoscript/fileName/CanvasUpdateRegistry.cs:  -> bdf5b5b4904888a4c7ec20bc9ff4f0a2
+  custom:scripting/monoscript/fileName/Scrollbar.cs:  -> 042fdb4d377c0d68cf1021e2ead3c650
+  custom:scripting/monoscript/fileName/TMP_TextParsingUtilities.cs:  -> 8b3fe20641ae0dd97405135955c706a3
+  custom:scripting/monoscript/fileName/EventSystemEditor.cs:  -> 76f2d1177650edec9abc8c01fb91473a
+  custom:scripting/monoscript/fileName/AnimationTriggersDrawer.cs:  -> a95af93c1a59bab8729323baee4360e5
+  custom:scripting/monoscript/fileName/LayoutElement.cs:  -> 0ad083ca76b6eceec2f3e5e824de2611
+  custom:scripting/monoscript/fileName/LayoutGroup.cs:  -> 47296f37423e45582ae2a1285f1834e1
+========================================================================
+Received Import Request.
+  Time since last request: 23617.331751 seconds.
+  path: Assets/2048/Images/TileBasic.png
+  artifactKey: Guid(a9c05b5b33f2f2d4f95f84db7fa8a1a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2048/Images/TileBasic.png using Guid(a9c05b5b33f2f2d4f95f84db7fa8a1a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '60976633a6694fd2c33b6c6446358b3a') in 0.448678 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/2048/Sounds/DST-PerpetualMemory.mp3
+  artifactKey: Guid(d4f4fb08d79343044b3f876a1052c0a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/2048/Sounds/DST-PerpetualMemory.mp3 using Guid(d4f4fb08d79343044b3f876a1052c0a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1d3f28093b7dae8f4f26a6d06b1b9998') in 0.131922 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
